@@ -89,7 +89,7 @@ class _HomePageState extends State<HomePage> {
           ),
           TextFormField(
             validator: (val) {
-              if (val.isEmpty) {
+              if (val!.isEmpty) {
                 return S.of(context).formFieldRequired;
               }
               return null;
@@ -105,7 +105,7 @@ class _HomePageState extends State<HomePage> {
           ),
           TextFormField(
             validator: (val) {
-              if (val.isEmpty) {
+              if (val!.isEmpty) {
                 return S.of(context).formFieldRequired;
               }
               return null;
@@ -138,7 +138,7 @@ class _HomePageState extends State<HomePage> {
           ),
           MaterialButton(
             onPressed: () {
-              if (_key.currentState.validate()) {
+              if (_key.currentState!.validate()) {
                 _showSuccessDialog();
               }
             },

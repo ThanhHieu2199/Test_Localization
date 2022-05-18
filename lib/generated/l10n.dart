@@ -169,6 +169,16 @@ class S {
       args: [],
     );
   }
+
+  /// ``
+  String get formFieldAbout {
+    return Intl.message(
+      '',
+      name: 'formFieldAbout',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

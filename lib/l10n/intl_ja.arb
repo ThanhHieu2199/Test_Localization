@@ -10,5 +10,6 @@
   "formFieldSubmitInfo": "情報を送信",
   "aboutUsPageAppBarTitle": "私たちに関しては",
   "settingsPageAppBarTitle": "設定",
-  "formFieldChangeLanguage": "言語を変えてください"
+  "formFieldChangeLanguage": "言語を変えてください",
+  "formFieldAbout": ""
 }

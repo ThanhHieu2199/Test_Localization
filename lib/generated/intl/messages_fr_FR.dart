@@ -24,6 +24,7 @@ class MessageLookup extends MessageLookupByLibrary {
   static Map<String, Function> _notInlinedMessages(_) => <String, Function>{
         "aboutUsPageAppBarTitle":
             MessageLookupByLibrary.simpleMessage("À propos de nous"),
+        "formFieldAbout": MessageLookupByLibrary.simpleMessage(""),
         "formFieldChangeLanguage":
             MessageLookupByLibrary.simpleMessage("Changer de langue"),
         "formFieldDOB":

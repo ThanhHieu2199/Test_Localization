@@ -11,5 +11,6 @@
   "formFieldSubmitInfo": "Soumettre des informations",
   "aboutUsPageAppBarTitle": "À propos de nous",
   "settingsPageAppBarTitle": "Réglages",
-  "formFieldChangeLanguage": "Changer de langue"
+  "formFieldChangeLanguage": "Changer de langue",
+  "formFieldAbout": ""
 }

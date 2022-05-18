@@ -10,8 +10,8 @@ void main() => runApp(MyApp());
 class MyApp extends StatefulWidget {
 
   static void setLocale(BuildContext context, Locale newLocale) {
-    _MyAppState state = context.findAncestorStateOfType<_MyAppState>();
-    state.setLocale(newLocale);
+    _MyAppState? state = context.findAncestorStateOfType<_MyAppState>();
+    state?.setLocale(newLocale);
   }
 
   @override
@@ -60,8 +60,8 @@ class _MyAppState extends State<MyApp> {
         ],
         localeResolutionCallback: (locale, supportedLocales) {
           for (var supportedLocale in supportedLocales) {
-            if (supportedLocale.languageCode == locale.languageCode &&
-                supportedLocale.countryCode == locale.countryCode) {
+            if (supportedLocale.languageCode == locale?.languageCode &&
+                supportedLocale.countryCode == locale?.countryCode) {
               return supportedLocale;
             }
           }
