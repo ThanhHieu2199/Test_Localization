@@ -1,0 +1,14 @@
+{"@@locale": "ja_JA",
+  "homePageAppBarTitle": "ホームページ",
+  "homePageMainFormTitle": "個人情報",
+  "formFieldName": "名前",
+  "formFieldNameHint": "あなたの名前を入力してください",
+  "formFieldEmail": "Eメール",
+  "formFieldEmailHint": "メールアドレスを入力",
+  "formFieldDOB": "生年月日",
+  "formFieldRequired": "必須フィールド",
+  "formFieldSubmitInfo": "情報を送信",
+  "aboutUsPageAppBarTitle": "私たちに関しては",
+  "settingsPageAppBarTitle": "設定",
+  "formFieldChangeLanguage": "言語を変えてください"
+}

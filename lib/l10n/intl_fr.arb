@@ -1,0 +1,15 @@
+{
+  "@@locale": "fr_FR",
+  "homePageAppBarTitle": "Page d'accueil",
+  "homePageMainFormTitle": "Informations personnelles",
+  "formFieldName": "Nom",
+  "formFieldNameHint": "Entrez votre nom",
+  "formFieldEmail": "Email",
+  "formFieldEmailHint": "Entrer votre Email",
+  "formFieldDOB": "Date de naissance",
+  "formFieldRequired": "Champs requis",
+  "formFieldSubmitInfo": "Soumettre des informations",
+  "aboutUsPageAppBarTitle": "À propos de nous",
+  "settingsPageAppBarTitle": "Réglages",
+  "formFieldChangeLanguage": "Changer de langue"
+}
